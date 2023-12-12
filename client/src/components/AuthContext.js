@@ -20,7 +20,7 @@ export const AuthProvider = ({ children }) => {
     // Function to handle user sign-out
     const signOut = () => {
         // Remove the user data from local storage
-        localStorage.removeItem('userKey'); // Replace 'userKey' with the actual key used in your application
+        localStorage.removeItem('userId'); // Replace 'userKey' with the actual key used in your application
 
         // Update the currentUser state
         setCurrentUser(null);
